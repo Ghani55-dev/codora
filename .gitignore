@@ -1,0 +1,60 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Django
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# MySQL
+# =========================
+*.sql
+
+# =========================
+# Node (if frontend later)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
