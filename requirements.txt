@@ -13,6 +13,7 @@ click-repl==0.3.0
 cloudinary==1.44.1
 colorama==0.4.6
 cron_descriptor==2.0.6
+dj-database-url==3.0.1
 dj-rest-auth==7.0.1
 Django==5.2.9
 django-allauth==65.13.1
