@@ -170,14 +170,6 @@ CORS_ALLOW_CREDENTIALS = True
 AUTH_USER_MODEL = '_api_.User'
 # Site URL
 SITE_URL = 'http://localhost:8000'
-# Email settings (for development)
-# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-# EMAIL_HOST = 'smtp.gmail.com'
-# EMAIL_PORT = 587
-# EMAIL_USE_TLS = True
-# EMAIL_HOST_USER = 'ganamunna143@gmail.com'
-# EMAIL_HOST_PASSWORD = 'uggj yysu pgvr ccgs'  # Change this
-# DEFAULT_FROM_EMAIL = 'Codora <noreply@codora.in>'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 EMAIL_HOST = os.environ.get('EMAIL_HOST')
